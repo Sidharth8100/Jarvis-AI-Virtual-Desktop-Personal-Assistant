@@ -8,7 +8,8 @@ from client import ai
 
 recognizer = sr.Recognizer()
 engine = pyttsx3.init()
-newsapi = "9e9828d209194d6dba1efc5a433b4c29"
+#api keys here are fake no need to try
+newsapi = "9e9828####194d6dba1efc5a433b4c29"
 
 engine.setProperty('rate', 150)  # Slow down speech rate
 engine.setProperty('volume', 0.9)  # Set volume (0.0 to 1.0)
