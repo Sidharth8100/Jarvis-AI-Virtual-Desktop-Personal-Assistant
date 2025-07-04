@@ -8,7 +8,7 @@ def speak(text):
     engine.runAndWait()
 
 client = OpenAI(
-  api_key="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"
+  api_key="sk-proj-#_szr4dL0jFYbOmpoMqeT1tLSLWOvY8gnEvzQi7tH8VjL7tIWffxmVyN80YWyp5nveyvpT3BlbkFJUnWfnvOfb3UTXtlUehj7oJ2Sn2acuL2cMseJh-RGsBVzAMpGBXKNSjhUoY9uY2GcxRnRjHWzwA"
 )
 def ai(message: str):
     completion = client.chat.completions.create(
